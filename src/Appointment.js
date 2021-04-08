@@ -1,1 +1,3 @@
-export const Appointment = () => <div>Bernardo</div>;
+export const Appointment = ({ customer = {} }) => (
+	<div id='appointmentsDayView'>{customer.firstName}</div>
+);
